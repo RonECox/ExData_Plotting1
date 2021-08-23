@@ -33,7 +33,7 @@ targetData$DateTime <- strptime(paste(targetData$Date, targetData$Time, sep = " 
 png(filename = "plot4.png", width = 480, height = 480)
 
 
-# par(mfrow = c(1, 3), mar = c(4, 4, 2, 1), oma = c(0, 0, 2, 0))
+# Setup graphic device dimensions
 par(mfcol = c(2, 2), mar = c(4, 4, 1, 1), oma = c(0, 0, 0, 0))
 
 ## Chart 1
